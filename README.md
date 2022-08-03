@@ -1,5 +1,5 @@
 # StringAligner
-This is a program I wrote in my CMSC423 class at the University of Maryland. It deals with the pairwise alignment of two strings. In this assignment, I only had to deal with global alignment and fitting alignment. 
+This is a  Java program I wrote in my Bioinformatics class at the University of Maryland. It deals with the pairwise alignment of two strings. In this assignment, I only had to deal with global alignment and fitting alignment. 
 
 Global alignment requires an end-to-end alignment of string x (the query), with the string y (the reference). 
 

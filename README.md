@@ -18,7 +18,7 @@ AAGATGCATATTTACACGAGCATCTCCATGTGGTGCGTTATCACGGCAACCTACGCGATTAGCCGACCGAGTAATGAGGT
 TTATGCCGCGGTCACCACAAAGATGCATATTAACACGCGCATTTCCATATGGTGCGTTATCCCGGCAACCTACGCGATTTCGACCGAGTAATGAGGTAGACTAGTATGCGCT
 ```
 
-Treat the top string as string x (the query), and the bottom string as y (the reference). On the command line you must specify whether you want to do fitting or global alignment by including the word "fitting" or "global" as the second argument. If we ran the command with the "fitting" argument, with the mismatch penalty being 1 & the gap penalty being 3, we would get the following output contained in another file: 
+Treat the top string as string x (the query), and the bottom string as y (the reference). On the command line you must specify whether you want to do fitting or global alignment by including the word "fitting" or "global" as the second argument. If we were to run the command with the "fitting" argument, with the mismatch penalty being 1 & the gap penalty being 3, we would get the following output contained in another file: 
 
 ```
 -22	19	112	12=1X5=1X4=1X5=1X12=1X17=2I1X32=

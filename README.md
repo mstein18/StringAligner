@@ -29,8 +29,11 @@ The first number, -22, represents the total penalty gathered from each gap + mis
 The following specific characters in the CIGAR string (=, X, D, I) are explained below. 
 
 ```=``` - in the alignment the corresponding nucleotides in X and Y match
+
 ```X``` - in the alignment the corresponding nucleotides in X and Y mismatch
+
 ```D``` - in the alignment the next nucleotide is deleted from the reference (i.e. deleted from Y, which is equivalent to having this nucleotide inserted into X)
+
 ```I``` - in the alignment the next nucleotide is interted into the reference (i.e. inserted into Y, which is equivalent to having this nucleotide deleted from X)
 
 So in this case, the alignment starts off with 12 matching characters at index 19, then 1 mismatch between characters in string x and y, then another 5 matching characters, so on and so forth. 

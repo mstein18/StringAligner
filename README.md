@@ -27,6 +27,7 @@ Treat the top string as string x (the query), and the bottom string as y (the re
 The first number, -22, represents the total penalty gathered from each gap + mismatch that occurred in the optimal alignment. This means, with a mismatch penalty of 1 &  a gap penalty of 3, there is no alignment that will give a better score than -22. The next two numbers, 19 and 112, represent the indices in string y where the optimal alignment starts and ends. Intuitively, if you look at the 19th index of string y, you can see the next 12 characters all align perfectly with the first 12 characters in string x. The final argument in the output file is a CIGAR string that shows how to transform string y into x. It represents a list of pairs of (count, operation) where count is an integer >= 1 and operation explains what operation follows in the alignment. In this case, the pairs of operations in this CIGAR string would look like (12, =), (1, X), (5, =), (1, X), etc. 
 
 The following specific characters in the CIGAR string (=, X, D, I) are explained below. 
+
 ```=``` - in the alignment the corresponding nucleotides in X and Y match
 ```X``` - in the alignment the corresponding nucleotides in X and Y mismatch
 ```D``` - in the alignment the next nucleotide is deleted from the reference (i.e. deleted from Y, which is equivalent to having this nucleotide inserted into X)

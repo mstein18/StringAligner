@@ -5,7 +5,7 @@ Global alignment requires an end-to-end alignment of string x (the query), with 
 
 ![image](https://user-images.githubusercontent.com/49917374/182275909-0ec85a1b-6941-4864-9509-f6c71b497f1c.png)
 
-Fitting alignment allows gaps for free, as long as the gaps occur before the start of string x & following the end of string x. In this case, we find the optimal alignment where we are trying to "fit" one string somewhere into the middle of another.
+Fitting alignment allows gaps for free, as long as the gaps occur before the start of string y & following the end of string y. In this case, we find the optimal alignment where we are trying to "fit" one string somewhere into the middle of another.
 
 ![image](https://user-images.githubusercontent.com/49917374/182275857-fad8cbe4-cb8b-4c96-8848-16e58dab6247.png)
 
